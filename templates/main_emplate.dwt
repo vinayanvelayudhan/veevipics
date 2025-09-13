@@ -1,16 +1,16 @@
 <!DOCTYPE html> 
-<html lang="en"><!-- InstanceBegin template="/Templates/main_emplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<!-- InstanceBeginEditable name="doctitle" -->
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <meta name="description" content="New riendship" />
 <meta name="keywords" content="Friends" />
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
 <link href="D:/veevi.netlify.com/veevipics/main.css" rel="stylesheet" type="text/css">
   <link href="D:/veevi.netlify.com/veevipics/media_query.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
@@ -47,9 +47,9 @@
           <ul class="navbar-nav">
 
             <li> <a href="#category" title="Category" class="navbar-link">Category</a> </li>
-            <li> <a href="profile-pictures/stylish_girls_dps/stylish_dps_for_girls_01.html" title="Stylish Profile Pictures for girls" class="navbar-link">Girls Profile Pics</a> </li>
-			<li><a href="profile-pictures/stylish_boys_dps/stylish_dps_for_boys_01.html" title="Stylish Profile Pictures" class="navbar-link">Boys Profile Pics</a> </li>
-			  <li><a href="profile-pictures/stylish_dp/selected_stylish_dp_profile_pictures_for_whatsapp_facebook_01.html" title="Love Profile Pictures for facebook, whatsapp" class="navbar-link">Stylish Profile Pics</a></li>
+            <li> <a href="../profile-pictures/stylish_girls_dps/stylish_dps_for_girls_01.html" title="Stylish Profile Pictures for girls" class="navbar-link">Girls Profile Pics</a> </li>
+			<li><a href="../profile-pictures/stylish_boys_dps/stylish_dps_for_boys_01.html" title="Stylish Profile Pictures" class="navbar-link">Boys Profile Pics</a> </li>
+			  <li><a href="../profile-pictures/stylish_dp/selected_stylish_dp_profile_pictures_for_whatsapp_facebook_01.html" title="Love Profile Pictures for facebook, whatsapp" class="navbar-link">Stylish Profile Pics</a></li>
             <li> <a href="https://www.facebook.com/Statusfaceb00k/" target="_blank" title="Like us at FB" class="navbar-link  indicator">LIKE US@FB</a> </li>
 
           </ul>
@@ -91,7 +91,7 @@
 <main id="main">	 
 		   <section><div class="contento"><div class="container">
 			   <div class = "row"> 		
-		   </div></div><!-- InstanceBeginEditable name="EditRegion1" -->
+		   </div></div><!-- TemplateBeginEditable name="EditRegion1" -->
 <br />
 <h1>ProfilePics.in - New Profile Pictures</h1>
 <div class="m-description"><strong>Welcome to ProfilePics.in</strong><br />
@@ -102,26 +102,26 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
 			   
 <div id="clinks"><br />
 <h2>New Profile Pictures Collection 2017</h2><br />
-<h3><a href="profile-pictures/love-profile-pictures-dp-for-whatsapp-facebook-01.html" title="Love Profile Pictures for whatsapp facebook">New Love Profile Pictures for whatsapp facebook</a></h3>
+<h3><a href="../profile-pictures/love-profile-pictures-dp-for-whatsapp-facebook-01.html" title="Love Profile Pictures for whatsapp facebook">New Love Profile Pictures for whatsapp facebook</a></h3>
 <p>New Profile Pictures for facebook, New Profile Pics for Whatsapp FB, cool love pics, cool stylish profile pictures</p><br />
-<h3><a href="profile-pictures/stylish-profile-pictures-dp-for-facebook-whatsapp-01.html">Stylish Profile Pictures, Cool and Stylish Profile Pictures</a></h3>
+<h3><a href="../profile-pictures/stylish-profile-pictures-dp-for-facebook-whatsapp-01.html">Stylish Profile Pictures, Cool and Stylish Profile Pictures</a></h3>
 <p>Cool and stylish profile pictures for whatsapp facebook</p><br />
-<h3><a href="profile-pictures/profile-pictures-for-girls-for-facebook-whatsapp-01.html">Profile Pictures For Girls</a></h3>
+<h3><a href="../profile-pictures/profile-pictures-for-girls-for-facebook-whatsapp-01.html">Profile Pictures For Girls</a></h3>
 <p>Cool Stylish Profile Pictures For Girls For Facebook, Whatsapp</p><br />
-<h3><a href="profile-pictures/profile-pictures-for-boys-for-facebook-whatsapp-01.html">Profile Pictures For Boys</a></h3>
+<h3><a href="../profile-pictures/profile-pictures-for-boys-for-facebook-whatsapp-01.html">Profile Pictures For Boys</a></h3>
 <p>Cool Stylish Profile Pictures For Boys For Facebook, Whatsapp</p>
 </div>
 <!--end of content-->
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
 			   
 </div>
 <div class="sidebar">
 <!--<div class="sidebar-title"><a id="category"></a>Category</div>-->
 <a id="category"></a><h4 class="sidebar-title">Latest Profile Pictures</h4>
 <ul>
-<li><a href="index.html#new-dp-profile-pics-updates"><ion-icon name="star-half-sharp" class="star"></ion-icon> NEW UPDATES</a></li>
-<li><a href="profile-pictures/be-my-valentine/be-my-valentine-dp-pics-for-whatsapp-facebook-01.html" title="be my valentine"><ion-icon name="star-half-sharp" class="star"></ion-icon> Be My Valentine</a></li>
-<li><a href="profile-pictures/valentines-day-quotes/valentines-day-quotes-for-whatsapp-facebook-01.html" title="valentines day quotes"><ion-icon name="star-half-sharp" class="star"></ion-icon> Valentines Day Quotes</a></li>
+<li><a href="../index.html#new-dp-profile-pics-updates"><ion-icon name="star-half-sharp" class="star"></ion-icon> NEW UPDATES</a></li>
+<li><a href="../profile-pictures/be-my-valentine/be-my-valentine-dp-pics-for-whatsapp-facebook-01.html" title="be my valentine"><ion-icon name="star-half-sharp" class="star"></ion-icon> Be My Valentine</a></li>
+<li><a href="../profile-pictures/valentines-day-quotes/valentines-day-quotes-for-whatsapp-facebook-01.html" title="valentines day quotes"><ion-icon name="star-half-sharp" class="star"></ion-icon> Valentines Day Quotes</a></li>
 
 </div></section>
 	<section><div class="clearboth"></div>		  
@@ -168,8 +168,8 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
 
             <h4 class="link-heading">ProfilePics.in</h4>
 
-            <li class="link-item"><a href="contact_us-profile-pics-in.html">Contact Us</a></li>
-            <li class="link-item"><a href="blog/index.html">Blog</a></li>
+            <li class="link-item"><a href="../contact_us-profile-pics-in.html">Contact Us</a></li>
+            <li class="link-item"><a href="../blog/index.html">Blog</a></li>
           </ul>
 
           <ul>
@@ -206,7 +206,7 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
         </div>
 
         <div class="wrapper">
-          <a href="privacy-policies.html">Privacy policy</a>
+          <a href="../privacy-policies.html">Privacy policy</a>
          
         </div>
 
@@ -231,4 +231,4 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
-<!-- InstanceEnd --></html>
+</html>
