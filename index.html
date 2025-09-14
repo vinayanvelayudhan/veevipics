@@ -85,6 +85,7 @@
 <div class="m-description"><strong>Welcome to ProfilePics.in</strong><br />
 profilepics.in is a site where you can get all kind of<strong> New Profile Pictures</strong>  that you can share on <strong>Whatsapp</strong>, <strong>facebook</strong> and also can send to your friends.<br />
 </div>
+			  			   
 <p class="profilepics"><img id="Img-Id-01" src="images/01.jpg" class="img-responsive" alt="profile pictures" /><br><button type="button" class="btn btn-default vv" data-download="Img-Id-01">DOWNLOAD IMAGE</button></p>
 			   
 			   <p class="profilepics"><img id="ImgId-02" src="images/02.jpg" class="img-responsive" alt="profile pictures" /><br><button type="button" class="btn btn-default vv" data-download="Img-Id-02">DOWNLOAD IMAGE</button></p>
@@ -241,6 +242,38 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
   <!--
     - custom js link
   -->
+	<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const downloadLinks = document.querySelectorAll("[data-download]");
+            console.log("Elements found:", downloadLinks); // Debug
+
+            if (downloadLinks.length === 0) {
+                console.error("No buttons with [data-download] found.");
+                return;
+            }
+
+            downloadLinks.forEach(button => {
+                button.addEventListener("click", () => {
+                    const id = button.dataset.download;
+                    const image = document.getElementById(id);
+                    
+                    if (!image) {
+                        console.error("Image not found:", id);
+                        return;
+                    }
+
+                    const a = document.createElement("a");
+                    a.href = image.src;
+                    a.download = image.alt || "image";
+                    a.style.display = "none";
+                    
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
+            });
+        });
+    </script>
   <script src="assets/js/main.js"></script>
   <!--
     - ionicon link

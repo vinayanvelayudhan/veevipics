@@ -219,6 +219,38 @@ profilepics.in is a site where you can get all kind of<strong> New Profile Pictu
   <!--
     - custom js link
   -->
+	<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const downloadLinks = document.querySelectorAll("[data-download]");
+            console.log("Elements found:", downloadLinks); // Debug
+
+            if (downloadLinks.length === 0) {
+                console.error("No buttons with [data-download] found.");
+                return;
+            }
+
+            downloadLinks.forEach(button => {
+                button.addEventListener("click", () => {
+                    const id = button.dataset.download;
+                    const image = document.getElementById(id);
+                    
+                    if (!image) {
+                        console.error("Image not found:", id);
+                        return;
+                    }
+
+                    const a = document.createElement("a");
+                    a.href = image.src;
+                    a.download = image.alt || "image";
+                    a.style.display = "none";
+                    
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
+            });
+        });
+    </script>
   <script src="../assets/js/main.js"></script>
   <!--
     - ionicon link
