@@ -8,45 +8,6 @@
     <img id="myImage" src="images/01.jpg" alt="Demo Image" crossorigin="anonymous">
     <button data-download="myImage">Download</button>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const downloadLinks = document.querySelectorAll("[data-download]");
-            downloadLinks.forEach(button => {
-                button.addEventListener("click", async () => {
-                    const id = button.dataset.download;
-                    const image = document.getElementById(id);
-                    
-                    if (!image) {
-                        console.error("Image not found:", id);
-                        return;
-                    }
-
-                    try {
-                        // Fetch the image (must be CORS-enabled)
-                        const response = await fetch(image.src);
-                        if (!response.ok) throw new Error("Failed to fetch image");
-
-                        // Download as blob
-                        const blob = await response.blob();
-                        const blobUrl = URL.createObjectURL(blob);
-                        const a = document.createElement("a");
-                        a.href = blobUrl;
-                        a.download = image.alt || "image.jpg";
-                        document.body.appendChild(a);
-                        a.click();
-
-                        // Cleanup
-                        setTimeout(() => {
-                            URL.revokeObjectURL(blobUrl);
-                            document.body.removeChild(a);
-                        }, 100);
-                    } catch (err) {
-                        console.error("Download failed:", err);
-                        alert("Ensure the image URL supports CORS and you're using a local server (http://localhost).");
-                    }
-                });
-            });
-        });
-    </script>
+    
 </body>
 </html>
